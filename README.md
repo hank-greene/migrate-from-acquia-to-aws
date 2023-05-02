@@ -16,3 +16,12 @@ Steps to instantiate a Solr EC2 instance and configure the Drupal site with sear
 * install php
 * install drupal, configure to use 
 
+# migrate drupal site code and data
+* github code
+* docroot
+
+# deploy an EC2 instance for solr
+* install solr
+* create an index
+
+# configure drupal for solr instance
