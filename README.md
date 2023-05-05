@@ -2,9 +2,8 @@
 Steps to migrate a Drupal CMS site from Acquia to AWS.  
 Steps to instantiate a Solr EC2 instance and configure the Drupal site with search. 
 # create the aws infrastructure
-* create vpc and network
-* deploy a debian instance
-* deploy an RDS, mysql instance
+* 01 create vpc, network and debian instance
+* 02 deploy an RDS(mysql) instance
 * deploy a EFS
 * deploy a mount point
 * mount the EFS in the debian instance
