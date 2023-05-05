@@ -1,0 +1,28 @@
+
+$ aws efs create-file-system --encrypted --creation-token fs4phn1token --tags Key=Name,Value="fs4phn1"
+{
+    "OwnerId": "639362923438",
+    "CreationToken": "fs4phn1token",
+    "FileSystemId": "fs-0b0c50faceb8be810",
+    "FileSystemArn": "arn:aws:elasticfilesystem:us-east-1:639362923438:file-system/fs-0b0c50faceb8be810",
+    "CreationTime": "2023-03-02T07:25:02-08:00",
+    "LifeCycleState": "creating",
+    "Name": "fs4phn1",
+    "NumberOfMountTargets": 0,
+    "SizeInBytes": {
+        "Value": 0,
+        "ValueInIA": 0,
+        "ValueInStandard": 0
+    },
+    "PerformanceMode": "generalPurpose",
+    "Encrypted": true,
+    "KmsKeyId": "arn:aws:kms:us-east-1:639362923438:key/4eb35133-48fa-4174-978a-b073243aa1ad",
+    "ThroughputMode": "bursting",
+    "Tags": [
+        {
+            "Key": "Name",
+            "Value": "fs4phn1"
+        }
+    ]
+}
+
