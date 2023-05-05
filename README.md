@@ -8,7 +8,7 @@ Steps to instantiate a Solr EC2 instance and configure the Drupal site with sear
 * deploy a EFS
 * deploy a mount point
 * mount the EFS in the debian instance
-<img src="https://github.com/hank-greene/migrate-from-acquia-to-aws/blob/main/aws-achitecture.png?raw=true" />
+<img src="https://github.com/hank-greene/migrate-from-acquia-to-aws/00-images/blob/main/aws-achitecture.png?raw=true" />
 
 
 # install apache2 and drupal
