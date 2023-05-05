@@ -1,0 +1,7 @@
+
+$ aws ec2 create-security-group --region us-east-1 --group-name efs-mnt-sg-number-2 --description "mount target 4 PHNInstance01" --vpc-id vpc-0b6fbb9f95948bacd
+{
+    "GroupId": "sg-063308c48873994e2"
+}
+
+
