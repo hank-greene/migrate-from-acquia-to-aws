@@ -1,0 +1,105 @@
+
+Reference Links
+https://betterprogramming.pub/creating-a-vpc-with-autoscaling-in-aws-cli-45708c953ab5
+
+https://cloud.google.com/anthos/clusters/docs/multi-cloud/aws/how-to/create-aws-vpc
+
+https://towardsaws.com/provisioning-instances-via-aws-cli-c511a9a5eba6
+
+https://eclipsys.ca/fr/launch-an-ec2-instance-with-a-static-website-using-awscli-in-10-min-freetier/
+
+https://cloud.google.com/anthos/clusters/docs/multi-cloud/aws/how-to/create-aws-vpc
+
+https://okigiveup.net/book-reviews/
+
+https://okigiveup.net/
+
+https://vaneyckt.io/posts/creating_an_ec2_instance_in_a_vpc_with_the_aws_cli/
+
+https://serverfault.com/questions/648332/how-to-list-all-vpc-dependencies-in-aws-cli
+
+https://www.golinuxcloud.com/aws-cli-tutorial/
+
+free kindle ... aws https://www.amazon.com/gp/product/B007S33NT2/ref=cm_cr_ryp_prd_ttl_sol_0
+
+
+Reference Commands
+ac1
+Create an AWS VPC using CLI.
+
+last step to configure git
+https://gist.github.com/developius/c81f021eb5c5916013dc git remote set-url origin git@github.com:username/your-repository.git
+
+https://brad-simonin.medium.com/create-an-aws-vpc-and-subnet-using-the-aws-cli-and-bash-a92af4d2e54b
+
+adds a new VPC
+
+names the VPC
+
+adds dns support
+
+adds a dns hostname
+
+creates an internet gateway
+
+names the internet gateway
+
+creates the subnet
+
+names the subnet
+
+enables public ip on the subnet
+
+creates the security group for the subnet
+
+names the security group
+
+enables port 22 for ssh
+
+creates the route table
+
+names the route table
+
+adds route to the internet gateway
+
+adds the route table to the subnet
+
+adds a new VPC hg> aws ec2 create-vpc --cidr-block 10.0.0.0/16 { "Vpc": { "CidrBlock": "10.0.0.0/16", "DhcpOptionsId": "dopt-4f7dfb35", "State": "pending", "VpcId": "vpc-039f245cebc7080bc", "OwnerId": "639362923438", "InstanceTenancy": "default", "Ipv6CidrBlockAssociationSet": [], "CidrBlockAssociationSet": [ { "AssociationId": "vpc-cidr-assoc-0f4e9eb1f04d70fa9", "CidrBlock": "10.0.0.0/16", "CidrBlockState": { "State": "associated" } } ], "IsDefault": false } }
+
+"VpcId": "vpc-039f245cebc7080bc"
+
+names the VPC aws ec2 create-tags --resources --tags Key=,Value= aws ec2 create-tags --resources vpc-039f245cebc7080bc --tags Key=Name,Value=AC1
+
+adds dns support aws ec2 modify-vpc-attribute --vpc-id $AWS_VPC_ID --enable-dns-support "{"Value":true}" aws ec2 modify-vpc-attribute --vpc-id vpc-039f245cebc7080bc --enable-dns-support "{"Value":true}"
+
+adds a dns hostname aws ec2 modify-vpc-attribute --vpc-id "$vpcId" --enable-dns-hostnames "{"Value":true}") aws ec2 modify-vpc-attribute --vpc-id vpc-039f245cebc7080bc --enable-dns-hostnames "{"Value":true}"
+
+creates an internet gateway sudo apt-get install jq
+
+export gateway_response=$(aws ec2 create-internet-gateway --output json) export gatewayId=$(echo -e "$gateway_response" | /usr/bin/jq '.InternetGateway.InternetGatewayId' | tr -d '"')
+
+echo $gatewayId igw-09499d5669cd460f9
+
+names the internet gateway aws ec2 create-tags --resources "$gatewayId" --tags Key=Name,Value="$gatewayName" aws ec2 create-tags --resources igw-09499d5669cd460f9 --tags Key=Name,Value=AC1_Gateway
+
+creates the subnet
+
+names the subnet
+
+enables public ip on the subnet
+
+creates the security group for the subnet
+
+names the security group
+
+enables port 22 for ssh
+
+creates the route table
+
+names the route table
+
+adds route to the internet gateway
+
+adds the route table to the subnet
+
+
