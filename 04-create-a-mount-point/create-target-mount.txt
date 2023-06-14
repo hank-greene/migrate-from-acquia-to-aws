@@ -1,0 +1,1 @@
+aws efs create-mount-target --file-system-id fs-017d4ca2f493b2057 --subnet-id subnet-0ee4408826ef7998f --security-group sg-0ea27d45353f3f0ef

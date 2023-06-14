@@ -1,0 +1,19 @@
+$ aws ec2 authorize-security-group-ingress --group-id sg-063308c48873994e2 --protocol tcp --port 2049 --source-group sg-0ea27d45353f3f0ef --region us-east-1
+{
+    "Return": true,
+    "SecurityGroupRules": [
+        {
+            "SecurityGroupRuleId": "sgr-0296f994173f73318",
+            "GroupId": "sg-063308c48873994e2",
+            "GroupOwnerId": "639362923438",
+            "IsEgress": false,
+            "IpProtocol": "tcp",
+            "FromPort": 2049,
+            "ToPort": 2049,
+            "ReferencedGroupInfo": {
+                "GroupId": "sg-0ea27d45353f3f0ef",
+                "UserId": "639362923438"
+            }
+        }
+    ]
+}
