@@ -1,0 +1,40 @@
+
+
+$ sudo apt install apache2 mariadb-server mariadb-client php libapache2-mod-php php-cli php-fpm php-json php-common php-mysql php-zip php-gd php-intl php-mbstring php-curl php-xml php-pear php-tidy php-soap php-bcmath php-xmlrpc
+Reading package lists... Done
+Building dependency tree... Done
+Reading state information... Done
+mariadb-client is already the newest version (1:10.5.18-0+deb11u1).
+The following additional packages will be installed:
+  apache2-bin apache2-data apache2-utils bzip2 fontconfig-config fonts-dejavu-core galera-4 gawk libapache2-mod-php7.4 libapr1
+  libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap libcgi-fast-perl libcgi-pm-perl libclone-perl libdeflate0 libencode-locale-perl
+  libfcgi-bin libfcgi-perl libfcgi0ldbl libfontconfig1 libgd3 libhtml-parser-perl libhtml-tagset-perl libhtml-template-perl
+  libhttp-date-perl libhttp-message-perl libio-html-perl libjansson4 libjbig0 libjpeg62-turbo liblua5.3-0 liblwp-mediatypes-perl
+  libmpfr6 libonig5 libsigsegv2 libsnappy1v5 libsodium23 libtidy5deb1 libtiff5 libtimedate-perl liburi-perl libwebp6 libxmlrpc-epi0
+  libxslt1.1 libzip4 lsof mailcap mariadb-server-10.5 mariadb-server-core-10.5 mime-support php7.4 php7.4-bcmath php7.4-cli
+  php7.4-common php7.4-curl php7.4-fpm php7.4-gd php7.4-intl php7.4-json php7.4-mbstring php7.4-mysql php7.4-opcache php7.4-readline
+  php7.4-soap php7.4-tidy php7.4-xml php7.4-xmlrpc php7.4-zip rsync ssl-cert
+Suggested packages:
+  apache2-doc apache2-suexec-pristine | apache2-suexec-custom www-browser bzip2-doc gawk-doc libgd-tools libdata-dump-perl
+  libipc-sharedcache-perl libwww-perl mailx mariadb-test netcat-openbsd
+The following NEW packages will be installed:
+  apache2 apache2-bin apache2-data apache2-utils bzip2 fontconfig-config fonts-dejavu-core galera-4 gawk libapache2-mod-php
+  libapache2-mod-php7.4 libapr1 libaprutil1 libaprutil1-dbd-sqlite3 libaprutil1-ldap libcgi-fast-perl libcgi-pm-perl libclone-perl
+  libdeflate0 libencode-locale-perl libfcgi-bin libfcgi-perl libfcgi0ldbl libfontconfig1 libgd3 libhtml-parser-perl libhtml-tagset-perl
+  libhtml-template-perl libhttp-date-perl libhttp-message-perl libio-html-perl libjansson4 libjbig0 libjpeg62-turbo liblua5.3-0
+  liblwp-mediatypes-perl libmpfr6 libonig5 libsigsegv2 libsnappy1v5 libsodium23 libtidy5deb1 libtiff5 libtimedate-perl liburi-perl
+  libwebp6 libxmlrpc-epi0 libxslt1.1 libzip4 lsof mailcap mariadb-server mariadb-server-10.5 mariadb-server-core-10.5 mime-support php
+  php-bcmath php-cli php-common php-curl php-fpm php-gd php-intl php-json php-mbstring php-mysql php-pear php-soap php-tidy php-xml
+  php-xmlrpc php-zip php7.4 php7.4-bcmath php7.4-cli php7.4-common php7.4-curl php7.4-fpm php7.4-gd php7.4-intl php7.4-json
+  php7.4-mbstring php7.4-mysql php7.4-opcache php7.4-readline php7.4-soap php7.4-tidy php7.4-xml php7.4-xmlrpc php7.4-zip rsync
+  ssl-cert
+0 upgraded, 92 newly installed, 0 to remove and 0 not upgraded.
+Need to get 29.2 MB of archives.
+After this operation, 169 MB of additional disk space will be used.
+Do you want to continue? [Y/n] y
+Get:1 http://security.debian.org/debian-security bullseye-security/main amd64 libaprutil1 amd64 1.6.1-5+deb11u1 [92.3 kB]
+Get:2 http://cdn-aws.deb.debian.org/debian bullseye/main amd64 libapr1 amd64 1.7.0-6+deb11u1 [106 kB]
+Get:3 http://security.debian.org/debian-security
+.
+.
+.

@@ -1,0 +1,3 @@
+
+$ sudo apt install apache2 mariadb-server mariadb-client php libapache2-mod-php php-cli php-fpm php-json php-common 
+
