@@ -7,6 +7,5 @@
  export MYSQL_HOST= [ database name ] . [whatever ] . us-east-1.rds.amazonaws.com  
   
 
-> sudo reboot
-```
+> sudo reboot```
 
