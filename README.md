@@ -1,6 +1,11 @@
-# migrate-from-acquia-to-aws
-Steps to migrate a Drupal CMS site from Acquia to AWS.  
-Steps to instantiate a Solr EC2 instance and configure the Drupal site with search. 
+# migrate from acquia to aws using aws cli 
+Create the cloud infrastructure for the drupla site using aws cli
+Migrate the Drupal CMS site from Acquia to AWS.  
+Instantiate a Solr EC2 instance and configure the Drupal site with search.
+## TEMPARY aws architecture examples
+https://awstut.com/en/2023/02/18/3-ways-to-access-s3-from-private-subnet-en/
+
+
 # create the aws infrastructure
 * 01 create vpc, network and debian instance
 * 02 create an RDS(mysql) instance
