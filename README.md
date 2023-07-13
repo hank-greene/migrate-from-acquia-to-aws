@@ -12,7 +12,7 @@ https://awstut.com/en/2023/02/18/3-ways-to-access-s3-from-private-subnet-en/
 * 03 create a EFS
 * 04 create mount point
 * 05 mount the EFS in the debian instance
-<img src="https://github.com/hank-greene/migrate-from-acquia-to-aws/blob/main/00-images/drupal-AWS-VPC.png?raw=true" />
+<img src="https://github.com/hank-greene/migrate-from-acquia-to-aws/blob/main/00-images/Drupal-AWS-VPC.png?raw=true" />
 
 
 # install apache2 and drupal
