@@ -17,7 +17,7 @@ https://awstut.com/en/2023/02/18/3-ways-to-access-s3-from-private-subnet-en/
 
 # install apache2 and drupal
 * 06 install apache2, php, mariadb client, etc
-* install drupal, configure to use 
+* 07 install drupal and configure for drupal site
 
 # migrate drupal site code and data
 * github code
