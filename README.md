@@ -20,6 +20,7 @@ https://awstut.com/en/2023/02/18/3-ways-to-access-s3-from-private-subnet-en/
 * 07 install drupal and configure for drupal site
 
 # migrate drupal site code and data
+* 08 migrate the aquia site
 * github code
 * docroot
 
