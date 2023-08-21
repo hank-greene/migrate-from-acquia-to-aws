@@ -25,7 +25,7 @@ https://awstut.com/en/2023/02/18/3-ways-to-access-s3-from-private-subnet-en/
 * docroot
 
 # deploy an EC2 instance for solr
-* install solr
+* 09 install solr
 * create an index
 
 # configure drupal for solr instance
