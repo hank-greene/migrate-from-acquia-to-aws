@@ -21,11 +21,11 @@ https://awstut.com/en/2023/02/18/3-ways-to-access-s3-from-private-subnet-en/
 
 # migrate drupal site code and data
 * 08 migrate the aquia site
-* github code
-* docroot
+* 09 github code
+* 10 docroot
 
 # deploy an EC2 instance for solr
-* 09 install solr
-* create an index
+* 11 install solr
+* 12 create an index
 
 # configure drupal for solr instance
